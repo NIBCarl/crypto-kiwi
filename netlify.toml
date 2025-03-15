@@ -1,0 +1,22 @@
+[build]
+  command = "npm run netlify-build"
+  publish = "out"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+  from = "/*"
+  to = "/_ipx"
+  status = 200
+  force = true
+  conditions = {Path = ["/_ipx/*"]}
+
+[[redirects]]
+  from = "/*"
+  to = "/404"
+  status = 404
+
+[build.environment]
+  NEXT_USE_NETLIFY_EDGE = "true"
+  NEXT_FORCE_EDGE_IMAGES = "true" 
