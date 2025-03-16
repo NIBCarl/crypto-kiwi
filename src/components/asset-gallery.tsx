@@ -140,7 +140,7 @@ export function AssetGallery() {
                     className="w-6 h-6"
                   />
                 </div>
-                <span className="text-sm">Twitter</span>
+                <span className="text-sm">X</span>
               </motion.div>
               
               <motion.div 
@@ -241,7 +241,7 @@ export function AssetGallery() {
                         />
                       </div>
                       <div>
-                        <h3 className="font-bold text-white">Twitter</h3>
+                        <h3 className="font-bold text-white">X</h3>
                         <p className="text-xs text-gray-300">@Kewi_L2</p>
                       </div>
                     </div>

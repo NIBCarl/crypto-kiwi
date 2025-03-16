@@ -268,7 +268,7 @@ export function KewiLandingPage() {
               <div className="lg:w-1/2 space-y-4">
                 <h3 className="text-2xl font-bold text-green-400">Seamless DeFi Experience</h3>
                 <p className="text-gray-300 text-lg">
-                  Kewi Labs is a USA based blockchain development company focusing on bridging the gap between web2 & web3 with its research, development and contributions to open source software across BTC & ETH networks.
+                Kewi is a high-performance Layer 2 blockchain designed to enhance scalability and usability for decentralized applications.
                 </p>
                 <ul className="space-y-3 mt-6">
                   <motion.li 
@@ -339,7 +339,7 @@ export function KewiLandingPage() {
                         className="w-6 h-6"
                       />
                     </div>
-                    <span className="text-sm font-medium">Twitter</span>
+                    <span className="text-sm font-medium">X</span>
                   </div>
                 </Link>
               </motion.div>

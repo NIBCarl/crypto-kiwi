@@ -177,14 +177,14 @@ export function FluidLandingPage() {
                       />
                     </div>
                     <div>
-                      <h3 className="font-bold text-white">Twitter</h3>
+                      <h3 className="font-bold text-white">X</h3>
                       <p className="text-xs text-gray-300">@Kewi_L2</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="p-4">
-                <p className="text-sm text-gray-300">Follow us on Twitter for the latest updates, announcements, and community engagement.</p>
+                <p className="text-sm text-gray-300">Follow us on X for the latest updates, announcements, and community engagement.</p>
                 <Link href="https://x.com/Kewi_L2" className="mt-3 inline-block text-green-400 text-sm hover:text-green-300 transition-colors">
                   Follow →
                 </Link>
@@ -350,7 +350,7 @@ export function FluidLandingPage() {
                       className="w-5 h-5"
                     />
                   </div>
-                  <span className="text-xs">Twitter</span>
+                  <span className="text-xs">X</span>
                 </div>
               </Link>
               <Link href="https://www.facebook.com/KewiLabs" aria-label="Facebook" className="text-white hover:text-green-400 transition-colors">
