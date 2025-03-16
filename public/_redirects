@@ -1,5 +1,6 @@
 # Redirect for social media crawlers
 /  /netlify.html  200!  Crawler=*
+/app/  /netlify.html  200!  Crawler=*
 
 # Default redirect for normal visitors
 /*  /index.html  200 

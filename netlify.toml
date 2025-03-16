@@ -13,6 +13,22 @@
   force = true
   conditions = {Crawler = true}
 
+# Specific redirect for the URL shown in the image
+[[redirects]]
+  from = "https://kiwi-cryptos.netlify.app/app/"
+  to = "/index.html"
+  status = 200
+  force = true
+  conditions = {Crawler = true}
+
+# Specific redirect for the URL shown in the image (alternative format)
+[[redirects]]
+  from = "https://kewi.crypto.netlify.app/"
+  to = "/index.html"
+  status = 200
+  force = true
+  conditions = {Crawler = true}
+
 # Standard redirects for the app
 [[redirects]]
   from = "/*"
@@ -23,6 +39,13 @@
   from = "/*"
   to = "/404"
   status = 404
+
+# Add headers for images to ensure proper content type
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+    Content-Type = "image/png"
 
 [build.environment]
   NEXT_USE_NETLIFY_EDGE = "true"
