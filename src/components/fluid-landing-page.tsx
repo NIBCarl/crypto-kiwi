@@ -306,7 +306,7 @@ export function FluidLandingPage() {
               <div className="max-w-2xl mx-auto text-center">
                 <h3 className="text-xl font-bold text-green-400 mb-3">Bridging Web2 & Web3</h3>
                 <p className="text-gray-300 mb-6">
-                  Kewi Labs is a USA based blockchain development company focusing on bridging the gap between web2 & web3 with its research, development and contributions to open source software across BTC & ETH networks.
+                  Kewi is a high-performance Layer 2 blockchain designed to enhance scalability and usability for decentralized applications.
                 </p>
                 <Link
                   href="/app"
