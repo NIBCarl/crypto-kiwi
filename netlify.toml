@@ -13,22 +13,6 @@
   force = true
   conditions = {Crawler = true}
 
-# Specific redirect for the URL shown in the image
-[[redirects]]
-  from = "https://kiwi-cryptos.netlify.app/app/"
-  to = "/index.html"
-  status = 200
-  force = true
-  conditions = {Crawler = true}
-
-# Specific redirect for the URL shown in the image (alternative format)
-[[redirects]]
-  from = "https://kewi.crypto.netlify.app/"
-  to = "/index.html"
-  status = 200
-  force = true
-  conditions = {Crawler = true}
-
 # Standard redirects for the app
 [[redirects]]
   from = "/*"
