@@ -185,14 +185,14 @@ export function FluidLandingPage() {
                     </div>
                     <div>
                       <h3 className="font-bold text-white">Twitter</h3>
-                      <p className="text-xs text-gray-300">@kiwilabs</p>
+                      <p className="text-xs text-gray-300">@Kewi_L2</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="p-4">
                 <p className="text-sm text-gray-300">Follow us on Twitter for the latest updates, announcements, and community engagement.</p>
-                <Link href="https://twitter.com/kiwilabs" className="mt-3 inline-block text-green-400 text-sm hover:text-green-300 transition-colors">
+                <Link href="https://x.com/Kewi_L2" className="mt-3 inline-block text-green-400 text-sm hover:text-green-300 transition-colors">
                   Follow →
                 </Link>
               </div>
@@ -202,7 +202,7 @@ export function FluidLandingPage() {
               <div className="relative h-40 overflow-hidden">
                 <Image
                   src={LinkedInCover}
-                  alt="LinkedIn Cover"
+                  alt="Telegram Cover"
                   fill
                   className="object-cover"
                 />
@@ -210,22 +210,20 @@ export function FluidLandingPage() {
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 rounded-full bg-black/50 flex items-center justify-center border-2 border-green-500">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
-                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                        <rect x="2" y="9" width="4" height="12"></rect>
-                        <circle cx="4" cy="4" r="2"></circle>
+                        <path d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-16.5 7.5a2.25 2.25 0 0 0 .126 4.073l3.9 1.205 2.306 6.54c.376 1.02 1.598 1.688 2.91 1.147l.012-.005a1.05 1.05 0 0 0 .402-.367l1.53-1.813 3.322 2.45c.83.607 2 .07 2.458-.91l4.537-13.5c.501-1.478-.64-2.926-2.18-3.034zM10.464 14.5l-1.17 1.395 4.5 3.33-3.33-4.725z" />
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-bold text-white">LinkedIn</h3>
-                      <p className="text-xs text-gray-300">Kiwi Labs</p>
+                      <h3 className="font-bold text-white">Telegram</h3>
+                      <p className="text-xs text-gray-300">KewiNews</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="p-4">
-                <p className="text-sm text-gray-300">Connect with us on LinkedIn for professional updates and industry insights.</p>
-                <Link href="https://linkedin.com/company/kiwilabs" className="mt-3 inline-block text-green-400 text-sm hover:text-green-300 transition-colors">
-                  Connect →
+                <p className="text-sm text-gray-300">Join our Telegram channel for news, updates, and community discussions.</p>
+                <Link href="https://t.me/KewiNews" className="mt-3 inline-block text-green-400 text-sm hover:text-green-300 transition-colors">
+                  Join →
                 </Link>
               </div>
             </div>
@@ -248,14 +246,14 @@ export function FluidLandingPage() {
                     </div>
                     <div>
                       <h3 className="font-bold text-white">YouTube</h3>
-                      <p className="text-xs text-gray-300">Kiwi Labs</p>
+                      <p className="text-xs text-gray-300">@KewiLabs</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="p-4">
                 <p className="text-sm text-gray-300">Watch our tutorials, demos, and educational content about the Kiwi ecosystem.</p>
-                <Link href="https://youtube.com/kiwilabs" className="mt-3 inline-block text-green-400 text-sm hover:text-green-300 transition-colors">
+                <Link href="https://www.youtube.com/@KewiLabs" className="mt-3 inline-block text-green-400 text-sm hover:text-green-300 transition-colors">
                   Subscribe →
                 </Link>
               </div>
@@ -278,14 +276,14 @@ export function FluidLandingPage() {
                     </div>
                     <div>
                       <h3 className="font-bold text-white">Facebook</h3>
-                      <p className="text-xs text-gray-300">Kiwi Labs</p>
+                      <p className="text-xs text-gray-300">KewiLabs</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="p-4">
                 <p className="text-sm text-gray-300">Join our Facebook community for events, news, and connecting with other Kiwi enthusiasts.</p>
-                <Link href="https://facebook.com/kiwilabs" className="mt-3 inline-block text-green-400 text-sm hover:text-green-300 transition-colors">
+                <Link href="https://www.facebook.com/KewiLabs" className="mt-3 inline-block text-green-400 text-sm hover:text-green-300 transition-colors">
                   Like →
                 </Link>
               </div>
@@ -337,7 +335,7 @@ export function FluidLandingPage() {
           <div className="flex flex-col items-center">
             <h3 className="text-xl font-semibold mb-4 text-green-400">Connect With Us</h3>
             <div className="flex justify-center gap-8">
-              <Link href="https://twitter.com/kiwilabs" aria-label="Twitter" className="text-white hover:text-green-400 transition-colors">
+              <Link href="https://x.com/Kewi_L2" aria-label="Twitter" className="text-white hover:text-green-400 transition-colors">
                 <div className="flex flex-col items-center">
                   <div className="w-10 h-10 rounded-full bg-black/30 flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/50 transition-colors">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
@@ -347,7 +345,7 @@ export function FluidLandingPage() {
                   <span className="text-xs">Twitter</span>
                 </div>
               </Link>
-              <Link href="https://facebook.com/kiwilabs" aria-label="Facebook" className="text-white hover:text-green-400 transition-colors">
+              <Link href="https://www.facebook.com/KewiLabs" aria-label="Facebook" className="text-white hover:text-green-400 transition-colors">
                 <div className="flex flex-col items-center">
                   <div className="w-10 h-10 rounded-full bg-black/30 flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/50 transition-colors">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
@@ -357,19 +355,17 @@ export function FluidLandingPage() {
                   <span className="text-xs">Facebook</span>
                 </div>
               </Link>
-              <Link href="https://linkedin.com/company/kiwilabs" aria-label="LinkedIn" className="text-white hover:text-green-400 transition-colors">
+              <Link href="https://t.me/KewiNews" aria-label="Telegram" className="text-white hover:text-green-400 transition-colors">
                 <div className="flex flex-col items-center">
                   <div className="w-10 h-10 rounded-full bg-black/30 flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/50 transition-colors">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
-                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                      <rect x="2" y="9" width="4" height="12"></rect>
-                      <circle cx="4" cy="4" r="2"></circle>
+                      <path d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-16.5 7.5a2.25 2.25 0 0 0 .126 4.073l3.9 1.205 2.306 6.54c.376 1.02 1.598 1.688 2.91 1.147l.012-.005a1.05 1.05 0 0 0 .402-.367l1.53-1.813 3.322 2.45c.83.607 2 .07 2.458-.91l4.537-13.5c.501-1.478-.64-2.926-2.18-3.034zM10.464 14.5l-1.17 1.395 4.5 3.33-3.33-4.725z" />
                     </svg>
                   </div>
-                  <span className="text-xs">LinkedIn</span>
+                  <span className="text-xs">Telegram</span>
                 </div>
               </Link>
-              <Link href="https://youtube.com/kiwilabs" aria-label="YouTube" className="text-white hover:text-green-400 transition-colors">
+              <Link href="https://www.youtube.com/@KewiLabs" aria-label="YouTube" className="text-white hover:text-green-400 transition-colors">
                 <div className="flex flex-col items-center">
                   <div className="w-10 h-10 rounded-full bg-black/30 flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/50 transition-colors">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
@@ -378,6 +374,18 @@ export function FluidLandingPage() {
                     </svg>
                   </div>
                   <span className="text-xs">YouTube</span>
+                </div>
+              </Link>
+              <Link href="https://www.instagram.com/kewilabs/" aria-label="Instagram" className="text-white hover:text-green-400 transition-colors">
+                <div className="flex flex-col items-center">
+                  <div className="w-10 h-10 rounded-full bg-black/30 flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/50 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
+                      <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                  </div>
+                  <span className="text-xs">Instagram</span>
                 </div>
               </Link>
             </div>

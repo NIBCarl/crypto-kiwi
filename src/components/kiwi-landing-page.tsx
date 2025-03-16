@@ -345,7 +345,7 @@ export function KiwiLandingPage() {
                 whileHover={{ y: -5, scale: 1.1 }}
                 transition={{ duration: 0.2 }}
               >
-                <Link href="https://twitter.com/kiwilabs" aria-label="Twitter" className="text-white hover:text-green-400 transition-colors">
+                <Link href="https://x.com/Kewi_L2" aria-label="Twitter" className="text-white hover:text-green-400 transition-colors">
                   <div className="flex flex-col items-center">
                     <div className="w-14 h-14 rounded-full bg-black/50 backdrop-blur-sm flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/70 transition-colors shadow-[0_0_15px_rgba(0,0,0,0.5)]">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
@@ -361,7 +361,7 @@ export function KiwiLandingPage() {
                 whileHover={{ y: -5, scale: 1.1 }}
                 transition={{ duration: 0.2 }}
               >
-                <Link href="https://facebook.com/kiwilabs" aria-label="Facebook" className="text-white hover:text-green-400 transition-colors">
+                <Link href="https://www.facebook.com/KewiLabs" aria-label="Facebook" className="text-white hover:text-green-400 transition-colors">
                   <div className="flex flex-col items-center">
                     <div className="w-14 h-14 rounded-full bg-black/50 backdrop-blur-sm flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/70 transition-colors shadow-[0_0_15px_rgba(0,0,0,0.5)]">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
@@ -377,16 +377,14 @@ export function KiwiLandingPage() {
                 whileHover={{ y: -5, scale: 1.1 }}
                 transition={{ duration: 0.2 }}
               >
-                <Link href="https://linkedin.com/company/kiwilabs" aria-label="LinkedIn" className="text-white hover:text-green-400 transition-colors">
+                <Link href="https://t.me/KewiNews" aria-label="Telegram" className="text-white hover:text-green-400 transition-colors">
                   <div className="flex flex-col items-center">
                     <div className="w-14 h-14 rounded-full bg-black/50 backdrop-blur-sm flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/70 transition-colors shadow-[0_0_15px_rgba(0,0,0,0.5)]">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
-                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                        <rect x="2" y="9" width="4" height="12"></rect>
-                        <circle cx="4" cy="4" r="2"></circle>
+                        <path d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-16.5 7.5a2.25 2.25 0 0 0 .126 4.073l3.9 1.205 2.306 6.54c.376 1.02 1.598 1.688 2.91 1.147l.012-.005a1.05 1.05 0 0 0 .402-.367l1.53-1.813 3.322 2.45c.83.607 2 .07 2.458-.91l4.537-13.5c.501-1.478-.64-2.926-2.18-3.034zM10.464 14.5l-1.17 1.395 4.5 3.33-3.33-4.725z" />
                       </svg>
                     </div>
-                    <span className="text-sm font-medium">LinkedIn</span>
+                    <span className="text-sm font-medium">Telegram</span>
                   </div>
                 </Link>
               </motion.div>
@@ -395,7 +393,7 @@ export function KiwiLandingPage() {
                 whileHover={{ y: -5, scale: 1.1 }}
                 transition={{ duration: 0.2 }}
               >
-                <Link href="https://youtube.com/kiwilabs" aria-label="YouTube" className="text-white hover:text-green-400 transition-colors">
+                <Link href="https://www.youtube.com/@KewiLabs" aria-label="YouTube" className="text-white hover:text-green-400 transition-colors">
                   <div className="flex flex-col items-center">
                     <div className="w-14 h-14 rounded-full bg-black/50 backdrop-blur-sm flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/70 transition-colors shadow-[0_0_15px_rgba(0,0,0,0.5)]">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
@@ -404,6 +402,24 @@ export function KiwiLandingPage() {
                       </svg>
                     </div>
                     <span className="text-sm font-medium">YouTube</span>
+                  </div>
+                </Link>
+              </motion.div>
+              
+              <motion.div
+                whileHover={{ y: -5, scale: 1.1 }}
+                transition={{ duration: 0.2 }}
+              >
+                <Link href="https://www.instagram.com/kewilabs/" aria-label="Instagram" className="text-white hover:text-green-400 transition-colors">
+                  <div className="flex flex-col items-center">
+                    <div className="w-14 h-14 rounded-full bg-black/50 backdrop-blur-sm flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/70 transition-colors shadow-[0_0_15px_rgba(0,0,0,0.5)]">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                      </svg>
+                    </div>
+                    <span className="text-sm font-medium">Instagram</span>
                   </div>
                 </Link>
               </motion.div>

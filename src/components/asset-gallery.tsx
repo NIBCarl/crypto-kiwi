@@ -154,12 +154,10 @@ export function AssetGallery() {
               >
                 <div className="w-12 h-12 rounded-full bg-black/30 flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/50 transition-colors">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
-                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                    <rect x="2" y="9" width="4" height="12"></rect>
-                    <circle cx="4" cy="4" r="2"></circle>
+                    <path d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-16.5 7.5a2.25 2.25 0 0 0 .126 4.073l3.9 1.205 2.306 6.54c.376 1.02 1.598 1.688 2.91 1.147l.012-.005a1.05 1.05 0 0 0 .402-.367l1.53-1.813 3.322 2.45c.83.607 2 .07 2.458-.91l4.537-13.5c.501-1.478-.64-2.926-2.18-3.034zM10.464 14.5l-1.17 1.395 4.5 3.33-3.33-4.725z" />
                   </svg>
                 </div>
-                <span className="text-sm">LinkedIn</span>
+                <span className="text-sm">Telegram</span>
               </motion.div>
               
               <motion.div 
@@ -232,7 +230,7 @@ export function AssetGallery() {
                       </div>
                       <div>
                         <h3 className="font-bold text-white">Twitter</h3>
-                        <p className="text-xs text-gray-300">@kiwilabs</p>
+                        <p className="text-xs text-gray-300">@Kewi_L2</p>
                       </div>
                     </div>
                   </div>
@@ -259,7 +257,7 @@ export function AssetGallery() {
                       </div>
                       <div>
                         <h3 className="font-bold text-white">Facebook</h3>
-                        <p className="text-xs text-gray-300">Kiwi Labs</p>
+                        <p className="text-xs text-gray-300">KewiLabs</p>
                       </div>
                     </div>
                   </div>
