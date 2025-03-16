@@ -73,6 +73,14 @@ export function FluidLandingPage() {
             >
               Kiwi Labs
             </motion.h1>
+            <motion.p 
+              className="text-xl md:text-2xl text-green-400 font-mono mb-8"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+            >
+              POWERED BY KUSD
+            </motion.p>
           </div>
           <motion.div 
             className="md:w-1/2 flex justify-center"

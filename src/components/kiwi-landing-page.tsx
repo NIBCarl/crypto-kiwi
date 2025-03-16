@@ -171,6 +171,14 @@ export function KiwiLandingPage() {
             >
               Kiwi Labs
             </motion.h1>
+            <motion.p 
+              className="text-xl md:text-2xl text-green-400 font-mono mb-10"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+            >
+              POWERED BY KUSD
+            </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
