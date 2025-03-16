@@ -11,6 +11,7 @@ import BackgroundImage from "../../assets/background.jpeg";
 import Pfp1Image from "../../assets/Pfp1.png";
 import Pfp2Image from "../../assets/Pfp2.png";
 import KiwiWebsite from "../../assets/Kewi Website.png";
+import TwitterLogo from "../../assets/twitter.webp";
 
 // Social media images
 import TwitterCover from "../../assets/Socials/Twitter Cover.jpg";
@@ -127,10 +128,13 @@ export function AssetGallery() {
                 transition={{ duration: 0.2 }}
               >
                 <div className="w-12 h-12 rounded-full bg-black/30 flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/50 transition-colors">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
-                    <line x1="6" y1="18" x2="18" y2="6"></line>
-                    <line x1="6" y1="6" x2="18" y2="18"></line>
-                  </svg>
+                  <Image 
+                    src={TwitterLogo} 
+                    alt="X (Twitter)" 
+                    width={14} 
+                    height={14} 
+                    className="w-6 h-6"
+                  />
                 </div>
                 <span className="text-sm">Twitter</span>
               </motion.div>
@@ -225,10 +229,13 @@ export function AssetGallery() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-4">
                     <div className="flex items-center gap-3">
                       <div className="w-10 h-10 rounded-full bg-black/50 flex items-center justify-center border-2 border-green-500">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
-                          <line x1="6" y1="18" x2="18" y2="6"></line>
-                          <line x1="6" y1="6" x2="18" y2="18"></line>
-                        </svg>
+                        <Image 
+                          src={TwitterLogo} 
+                          alt="X (Twitter)" 
+                          width={12} 
+                          height={12} 
+                          className="w-5 h-5"
+                        />
                       </div>
                       <div>
                         <h3 className="font-bold text-white">Twitter</h3>

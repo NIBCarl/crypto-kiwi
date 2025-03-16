@@ -37,6 +37,7 @@ import LogoImage from "../../assets/Logo.png";
 import CoinImage from "../../assets/Coin.png";
 import BackgroundImage from "../../assets/background.jpeg";
 import KiwiWebsite from "../../assets/Kewi Website.png";
+import TwitterLogo from "../../assets/twitter.webp";
 
 // Social media images
 // import TwitterCover from "../../assets/Socials/Twitter Cover.jpg";
@@ -326,10 +327,13 @@ export function KewiLandingPage() {
                 <Link href="https://x.com/Kewi_L2" aria-label="Twitter" className="text-white hover:text-green-400 transition-colors">
                   <div className="flex flex-col items-center">
                     <div className="w-14 h-14 rounded-full bg-black/50 backdrop-blur-sm flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/70 transition-colors shadow-[0_0_15px_rgba(0,0,0,0.5)]">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
-                        <line x1="6" y1="18" x2="18" y2="6"></line>
-                        <line x1="6" y1="6" x2="18" y2="18"></line>
-                      </svg>
+                      <Image 
+                        src={TwitterLogo} 
+                        alt="X (Twitter)" 
+                        width={16} 
+                        height={16} 
+                        className="w-6 h-6"
+                      />
                     </div>
                     <span className="text-sm font-medium">Twitter</span>
                   </div>
