@@ -5,6 +5,15 @@
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
+# This redirect ensures that social media crawlers see our custom index.html with metadata
+[[redirects]]
+  from = "https://kiwi-cryptos.netlify.app/"
+  to = "/index.html"
+  status = 200
+  force = true
+  conditions = {Crawler = true}
+
+# Standard redirects for the app
 [[redirects]]
   from = "/*"
   to = "/index.html"

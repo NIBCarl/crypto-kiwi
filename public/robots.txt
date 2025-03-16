@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kiwi-cryptos.netlify.app/sitemap.xml 
