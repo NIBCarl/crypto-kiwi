@@ -11,7 +11,11 @@ import BackgroundImage from "../../assets/background.jpeg";
 import Pfp1Image from "../../assets/Pfp1.png";
 import Pfp2Image from "../../assets/Pfp2.png";
 import KiwiWebsite from "../../assets/Kewi Website.png";
-import TwitterLogo from "../../assets/twitter.webp";
+import TwitterLogo from "../../assets/Socials icon/1.png";
+import FacebookLogo from "../../assets/Socials icon/2.png";
+import TelegramLogo from "../../assets/Socials icon/3.png";
+import YoutubeLogo from "../../assets/Socials icon/4.png";
+import InstagramLogo from "../../assets/Socials icon/5.png";
 
 // Social media images
 import TwitterCover from "../../assets/Socials/Twitter Cover.jpg";
@@ -145,9 +149,13 @@ export function AssetGallery() {
                 transition={{ duration: 0.2 }}
               >
                 <div className="w-12 h-12 rounded-full bg-black/30 flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/50 transition-colors">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
-                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                  </svg>
+                  <Image 
+                    src={FacebookLogo} 
+                    alt="Facebook" 
+                    width={14} 
+                    height={14} 
+                    className="w-6 h-6"
+                  />
                 </div>
                 <span className="text-sm">Facebook</span>
               </motion.div>
@@ -158,9 +166,13 @@ export function AssetGallery() {
                 transition={{ duration: 0.2 }}
               >
                 <div className="w-12 h-12 rounded-full bg-black/30 flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/50 transition-colors">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
-                    <path d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-16.5 7.5a2.25 2.25 0 0 0 .126 4.073l3.9 1.205 2.306 6.54c.376 1.02 1.598 1.688 2.91 1.147l.012-.005a1.05 1.05 0 0 0 .402-.367l1.53-1.813 3.322 2.45c.83.607 2 .07 2.458-.91l4.537-13.5c.501-1.478-.64-2.926-2.18-3.034zM10.464 14.5l-1.17 1.395 4.5 3.33-3.33-4.725z" />
-                  </svg>
+                  <Image 
+                    src={TelegramLogo} 
+                    alt="Telegram" 
+                    width={14} 
+                    height={14} 
+                    className="w-6 h-6"
+                  />
                 </div>
                 <span className="text-sm">Telegram</span>
               </motion.div>
@@ -171,10 +183,13 @@ export function AssetGallery() {
                 transition={{ duration: 0.2 }}
               >
                 <div className="w-12 h-12 rounded-full bg-black/30 flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/50 transition-colors">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
-                    <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
-                    <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
-                  </svg>
+                  <Image 
+                    src={YoutubeLogo} 
+                    alt="YouTube" 
+                    width={14} 
+                    height={14} 
+                    className="w-6 h-6"
+                  />
                 </div>
                 <span className="text-sm">YouTube</span>
               </motion.div>
@@ -185,27 +200,15 @@ export function AssetGallery() {
                 transition={{ duration: 0.2 }}
               >
                 <div className="w-12 h-12 rounded-full bg-black/30 flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/50 transition-colors">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
-                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                  </svg>
+                  <Image 
+                    src={InstagramLogo} 
+                    alt="Instagram" 
+                    width={14} 
+                    height={14} 
+                    className="w-6 h-6"
+                  />
                 </div>
                 <span className="text-sm">Instagram</span>
-              </motion.div>
-              
-              <motion.div 
-                className="flex flex-col items-center"
-                whileHover={{ scale: 1.1 }}
-                transition={{ duration: 0.2 }}
-              >
-                <div className="w-12 h-12 rounded-full bg-black/30 flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/50 transition-colors">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
-                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                    <circle cx="12" cy="10" r="3"></circle>
-                  </svg>
-                </div>
-                <span className="text-sm">Discord</span>
               </motion.div>
             </div>
           </div>
@@ -260,9 +263,13 @@ export function AssetGallery() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-4">
                     <div className="flex items-center gap-3">
                       <div className="w-10 h-10 rounded-full bg-black/50 flex items-center justify-center border-2 border-green-500">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
-                          <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                        </svg>
+                        <Image 
+                          src={FacebookLogo} 
+                          alt="Facebook" 
+                          width={12} 
+                          height={12} 
+                          className="w-5 h-5"
+                        />
                       </div>
                       <div>
                         <h3 className="font-bold text-white">Facebook</h3>
