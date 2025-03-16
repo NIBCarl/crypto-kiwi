@@ -5,11 +5,11 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Kewi Labs | High-Performance Layer 2 Blockchain",
-  description: "Kewi is a high-performance Layer 2 blockchain designed to enhance scalability and usability for decentralized applications.",
+  title: "Kewi Labs | Bridging Web2 & Web3",
+  description: "Kewi Labs is a USA based blockchain development company focusing on bridging the gap between web2 & web3 with its research, development and contributions to open source software across BTC & ETH networks.",
   openGraph: {
-    title: "Kewi Labs | High-Performance Layer 2 Blockchain",
-    description: "Kewi is a high-performance Layer 2 blockchain designed to enhance scalability and usability for decentralized applications.",
+    title: "Kewi Labs | Bridging Web2 & Web3",
+    description: "Kewi Labs is a USA based blockchain development company focusing on bridging the gap between web2 & web3 with its research, development and contributions to open source software across BTC & ETH networks.",
     url: "https://kiwi-cryptos.netlify.app/",
     siteName: "Kewi Labs",
     images: [
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kewi Labs | High-Performance Layer 2 Blockchain",
-    description: "Kewi is a high-performance Layer 2 blockchain designed to enhance scalability and usability for decentralized applications.",
+    title: "Kewi Labs | Bridging Web2 & Web3",
+    description: "Kewi Labs is a USA based blockchain development company focusing on bridging the gap between web2 & web3 with its research, development and contributions to open source software across BTC & ETH networks.",
     images: ["/images/og-image.png"],
     creator: "@Kewi_L2",
   },
