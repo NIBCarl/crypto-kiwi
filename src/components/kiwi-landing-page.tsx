@@ -185,7 +185,7 @@ export function KiwiLandingPage() {
               transition={{ duration: 0.5, delay: 0.6 }}
             >
               <p className="text-gray-300 max-w-md">
-                Building the future of decentralized finance with secure, scalable stablecoin solutions on the Fuel network.
+                Kewi Labs is a USA based blockchain development company focusing on bridging the gap between web2 & web3 with its research, development and contributions to open source software across BTC & ETH networks.
               </p>
             </motion.div>
           </div>
