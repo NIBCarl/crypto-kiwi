@@ -185,7 +185,7 @@ export function FluidLandingPage() {
               </div>
               <div className="p-4">
                 <p className="text-sm text-gray-300">Follow us on X for the latest updates, announcements, and community engagement.</p>
-                <Link href="https://x.com/Kewi_L2" className="mt-3 inline-block text-green-400 text-sm hover:text-green-300 transition-colors">
+                <Link href="https://x.com/Kewi_L2" target="_blank" rel="noopener noreferrer" className="mt-3 inline-block text-green-400 text-sm hover:text-green-300 transition-colors">
                   Follow →
                 </Link>
               </div>
@@ -219,7 +219,7 @@ export function FluidLandingPage() {
               </div>
               <div className="p-4">
                 <p className="text-sm text-gray-300">Join our Telegram channel for news, updates, and community discussions.</p>
-                <Link href="https://t.me/KewiNews" className="mt-3 inline-block text-green-400 text-sm hover:text-green-300 transition-colors">
+                <Link href="https://t.me/KewiNews" target="_blank" rel="noopener noreferrer" className="mt-3 inline-block text-green-400 text-sm hover:text-green-300 transition-colors">
                   Join →
                 </Link>
               </div>
@@ -253,7 +253,7 @@ export function FluidLandingPage() {
               </div>
               <div className="p-4">
                 <p className="text-sm text-gray-300">Watch our tutorials, demos, and educational content about the Kewi ecosystem.</p>
-                <Link href="https://www.youtube.com/@KewiLabs" className="mt-3 inline-block text-green-400 text-sm hover:text-green-300 transition-colors">
+                <Link href="https://www.youtube.com/@KewiLabs" target="_blank" rel="noopener noreferrer" className="mt-3 inline-block text-green-400 text-sm hover:text-green-300 transition-colors">
                   Subscribe →
                 </Link>
               </div>
@@ -287,7 +287,7 @@ export function FluidLandingPage() {
               </div>
               <div className="p-4">
                 <p className="text-sm text-gray-300">Join our Facebook community for events, news, and connecting with other Kewi enthusiasts.</p>
-                <Link href="https://www.facebook.com/KewiLabs" className="mt-3 inline-block text-green-400 text-sm hover:text-green-300 transition-colors">
+                <Link href="https://www.facebook.com/KewiLabs" target="_blank" rel="noopener noreferrer" className="mt-3 inline-block text-green-400 text-sm hover:text-green-300 transition-colors">
                   Like →
                 </Link>
               </div>
@@ -339,7 +339,7 @@ export function FluidLandingPage() {
           <div className="flex flex-col items-center">
             <h3 className="text-xl font-semibold mb-4 text-green-400">Connect With Us</h3>
             <div className="flex justify-center gap-8">
-              <Link href="https://x.com/Kewi_L2" aria-label="Twitter" className="text-white hover:text-green-400 transition-colors">
+              <Link href="https://x.com/Kewi_L2" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="text-white hover:text-green-400 transition-colors">
                 <div className="flex flex-col items-center">
                   <div className="w-10 h-10 rounded-full bg-black/30 flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/50 transition-colors">
                     <Image 
@@ -353,7 +353,7 @@ export function FluidLandingPage() {
                   <span className="text-xs">X</span>
                 </div>
               </Link>
-              <Link href="https://www.facebook.com/KewiLabs" aria-label="Facebook" className="text-white hover:text-green-400 transition-colors">
+              <Link href="https://www.facebook.com/KewiLabs" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-white hover:text-green-400 transition-colors">
                 <div className="flex flex-col items-center">
                   <div className="w-10 h-10 rounded-full bg-black/30 flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/50 transition-colors">
                     <Image 
@@ -367,7 +367,7 @@ export function FluidLandingPage() {
                   <span className="text-xs">Facebook</span>
                 </div>
               </Link>
-              <Link href="https://t.me/KewiNews" aria-label="Telegram" className="text-white hover:text-green-400 transition-colors">
+              <Link href="https://t.me/KewiNews" target="_blank" rel="noopener noreferrer" aria-label="Telegram" className="text-white hover:text-green-400 transition-colors">
                 <div className="flex flex-col items-center">
                   <div className="w-10 h-10 rounded-full bg-black/30 flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/50 transition-colors">
                     <Image 
@@ -381,7 +381,7 @@ export function FluidLandingPage() {
                   <span className="text-xs">Telegram</span>
                 </div>
               </Link>
-              <Link href="https://www.youtube.com/@KewiLabs" aria-label="YouTube" className="text-white hover:text-green-400 transition-colors">
+              <Link href="https://www.youtube.com/@KewiLabs" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="text-white hover:text-green-400 transition-colors">
                 <div className="flex flex-col items-center">
                   <div className="w-10 h-10 rounded-full bg-black/30 flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/50 transition-colors">
                     <Image 
@@ -395,7 +395,7 @@ export function FluidLandingPage() {
                   <span className="text-xs">YouTube</span>
                 </div>
               </Link>
-              <Link href="https://www.instagram.com/kewilabs/" aria-label="Instagram" className="text-white hover:text-green-400 transition-colors">
+              <Link href="https://www.instagram.com/kewilabs/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-white hover:text-green-400 transition-colors">
                 <div className="flex flex-col items-center">
                   <div className="w-10 h-10 rounded-full bg-black/30 flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/50 transition-colors">
                     <Image 

@@ -328,7 +328,7 @@ export function KewiLandingPage() {
                 whileHover={{ y: -5, scale: 1.1 }}
                 transition={{ duration: 0.2 }}
               >
-                <Link href="https://x.com/Kewi_L2" aria-label="Twitter" className="text-white hover:text-green-400 transition-colors">
+                <Link href="https://x.com/Kewi_L2" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="text-white hover:text-green-400 transition-colors">
                   <div className="flex flex-col items-center">
                     <div className="w-14 h-14 rounded-full bg-black/50 backdrop-blur-sm flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/70 transition-colors shadow-[0_0_15px_rgba(0,0,0,0.5)]">
                       <Image 
@@ -348,7 +348,7 @@ export function KewiLandingPage() {
                 whileHover={{ y: -5, scale: 1.1 }}
                 transition={{ duration: 0.2 }}
               >
-                <Link href="https://www.facebook.com/KewiLabs" aria-label="Facebook" className="text-white hover:text-green-400 transition-colors">
+                <Link href="https://www.facebook.com/KewiLabs" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-white hover:text-green-400 transition-colors">
                   <div className="flex flex-col items-center">
                     <div className="w-14 h-14 rounded-full bg-black/50 backdrop-blur-sm flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/70 transition-colors shadow-[0_0_15px_rgba(0,0,0,0.5)]">
                       <Image 
@@ -368,7 +368,7 @@ export function KewiLandingPage() {
                 whileHover={{ y: -5, scale: 1.1 }}
                 transition={{ duration: 0.2 }}
               >
-                <Link href="https://t.me/KewiNews" aria-label="Telegram" className="text-white hover:text-green-400 transition-colors">
+                <Link href="https://t.me/KewiNews" target="_blank" rel="noopener noreferrer" aria-label="Telegram" className="text-white hover:text-green-400 transition-colors">
                   <div className="flex flex-col items-center">
                     <div className="w-14 h-14 rounded-full bg-black/50 backdrop-blur-sm flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/70 transition-colors shadow-[0_0_15px_rgba(0,0,0,0.5)]">
                       <Image 
@@ -388,7 +388,7 @@ export function KewiLandingPage() {
                 whileHover={{ y: -5, scale: 1.1 }}
                 transition={{ duration: 0.2 }}
               >
-                <Link href="https://www.youtube.com/@KewiLabs" aria-label="YouTube" className="text-white hover:text-green-400 transition-colors">
+                <Link href="https://www.youtube.com/@KewiLabs" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="text-white hover:text-green-400 transition-colors">
                   <div className="flex flex-col items-center">
                     <div className="w-14 h-14 rounded-full bg-black/50 backdrop-blur-sm flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/70 transition-colors shadow-[0_0_15px_rgba(0,0,0,0.5)]">
                       <Image 
@@ -408,7 +408,7 @@ export function KewiLandingPage() {
                 whileHover={{ y: -5, scale: 1.1 }}
                 transition={{ duration: 0.2 }}
               >
-                <Link href="https://www.instagram.com/kewilabs/" aria-label="Instagram" className="text-white hover:text-green-400 transition-colors">
+                <Link href="https://www.instagram.com/kewilabs/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-white hover:text-green-400 transition-colors">
                   <div className="flex flex-col items-center">
                     <div className="w-14 h-14 rounded-full bg-black/50 backdrop-blur-sm flex items-center justify-center border-2 border-green-500 mb-2 hover:bg-black/70 transition-colors shadow-[0_0_15px_rgba(0,0,0,0.5)]">
                       <Image 
