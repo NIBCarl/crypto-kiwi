@@ -71,7 +71,7 @@ const useParallaxEffect = () => {
   }, []);
 };
 
-export function KiwiLandingPage() {
+export function KewiLandingPage() {
   // Enable parallax effect
   useParallaxEffect();
 
@@ -110,7 +110,7 @@ export function KiwiLandingPage() {
             >
               <Image 
                 src={LogoImage} 
-                alt="Kiwi Labs" 
+                alt="Kewi Labs" 
                 width={50} 
                 height={50} 
                 className="h-12 w-auto mr-3 drop-shadow-[0_0_8px_rgba(34,197,94,0.5)]"
@@ -122,7 +122,7 @@ export function KiwiLandingPage() {
             >
               <Image 
                 src={LogoText} 
-                alt="Kiwi Labs" 
+                alt="Kewi Labs" 
                 width={120} 
                 height={40} 
                 className="h-10 w-auto drop-shadow-[0_0_8px_rgba(34,197,94,0.5)]"
@@ -169,7 +169,7 @@ export function KiwiLandingPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              Kiwi Labs
+              Kewi Labs
             </motion.h1>
             <motion.p 
               className="text-xl md:text-2xl text-green-400 font-mono mb-10"
@@ -219,7 +219,7 @@ export function KiwiLandingPage() {
               >
                 <Image 
                   src={CoinImage} 
-                  alt="Kiwi Coin" 
+                  alt="Kewi Coin" 
                   width={400} 
                   height={400} 
                   className="w-64 md:w-96 h-auto drop-shadow-[0_0_15px_rgba(34,197,94,0.5)]"
@@ -238,7 +238,7 @@ export function KiwiLandingPage() {
           transition={{ duration: 0.7, delay: 0.6 }}
         >
           <h2 className="text-2xl text-center mb-8 font-semibold relative">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-green-600">KIWI ECOSYSTEM</span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-green-600">KEWI ECOSYSTEM</span>
             <div className="absolute h-1 w-24 bg-gradient-to-r from-green-500 to-transparent rounded-full bottom-0 left-1/2 transform -translate-x-1/2 mt-2"></div>
           </h2>
           <div className="bg-black/40 backdrop-blur-sm rounded-xl p-8 border border-green-500/20 shadow-[0_0_15px_rgba(0,0,0,0.5)]">
@@ -253,7 +253,7 @@ export function KiwiLandingPage() {
                   <div className="absolute inset-0 bg-gradient-to-r from-green-600/0 to-green-400/0 group-hover:from-green-600/20 group-hover:to-green-400/20 transition-all duration-500"></div>
                   <Image
                     src={KiwiWebsite}
-                    alt="Kiwi Website Preview"
+                    alt="Kewi Website Preview"
                     width={600}
                     height={400}
                     className="w-full h-auto"

@@ -1,5 +1,5 @@
-import { KiwiLandingPage } from "@/components/kiwi-landing-page";
+import { KewiLandingPage } from "@/components/kewi-landing-page";
 
 export default function Home() {
-  return <KiwiLandingPage />;
+  return <KewiLandingPage />;
 }

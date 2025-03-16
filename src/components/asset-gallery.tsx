@@ -48,13 +48,13 @@ function AssetItem({ src, alt, title, delay }: AssetItemProps) {
 
 export function AssetGallery() {
   const assets = [
-    { src: LogoImage, alt: "Kiwi Logo", title: "Logo.png" },
-    { src: LogoText, alt: "Kiwi Logo with Text", title: "Logo Text.png" },
-    { src: CoinImage, alt: "Kiwi Coin", title: "Coin.png" },
+    { src: LogoImage, alt: "Kewi Logo", title: "Logo.png" },
+    { src: LogoText, alt: "Kewi Logo with Text", title: "Logo Text.png" },
+    { src: CoinImage, alt: "Kewi Coin", title: "Coin.png" },
     { src: BackgroundImage, alt: "Background Image", title: "background.jpeg" },
     { src: Pfp1Image, alt: "Profile Picture 1", title: "Pfp1.png" },
     { src: Pfp2Image, alt: "Profile Picture 2", title: "Pfp2.png" },
-    { src: KiwiWebsite, alt: "Kiwi Website", title: "Kewi Website.png" },
+    { src: KiwiWebsite, alt: "Kewi Website", title: "Kewi Website.png" },
   ];
 
   const socialAssets = [
@@ -73,7 +73,7 @@ export function AssetGallery() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          Kiwi Assets Gallery
+          Kewi Assets Gallery
         </motion.h1>
 
         <motion.p
@@ -275,7 +275,7 @@ export function AssetGallery() {
                   <div className="rounded-lg overflow-hidden border border-green-500/30">
                     <Image
                       src={KiwiWebsite}
-                      alt="Kiwi Website Preview"
+                      alt="Kewi Website Preview"
                       width={500}
                       height={300}
                       className="w-full h-auto"

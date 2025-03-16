@@ -71,7 +71,7 @@ export function FluidLandingPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              Kiwi Labs
+              Kewi Labs
             </motion.h1>
             <motion.p 
               className="text-xl md:text-2xl text-green-400 font-mono mb-8"
@@ -99,7 +99,7 @@ export function FluidLandingPage() {
             >
               <Image 
                 src={CoinImage} 
-                alt="Kiwi Labs Logo" 
+                alt="Kewi Labs Logo" 
                 width={400} 
                 height={400} 
                 className="w-64 md:w-96 h-auto"
@@ -236,7 +236,7 @@ export function FluidLandingPage() {
                 </div>
               </div>
               <div className="p-4">
-                <p className="text-sm text-gray-300">Watch our tutorials, demos, and educational content about the Kiwi ecosystem.</p>
+                <p className="text-sm text-gray-300">Watch our tutorials, demos, and educational content about the Kewi ecosystem.</p>
                 <Link href="https://www.youtube.com/@KewiLabs" className="mt-3 inline-block text-green-400 text-sm hover:text-green-300 transition-colors">
                   Subscribe →
                 </Link>
@@ -266,7 +266,7 @@ export function FluidLandingPage() {
                 </div>
               </div>
               <div className="p-4">
-                <p className="text-sm text-gray-300">Join our Facebook community for events, news, and connecting with other Kiwi enthusiasts.</p>
+                <p className="text-sm text-gray-300">Join our Facebook community for events, news, and connecting with other Kewi enthusiasts.</p>
                 <Link href="https://www.facebook.com/KewiLabs" className="mt-3 inline-block text-green-400 text-sm hover:text-green-300 transition-colors">
                   Like →
                 </Link>
@@ -292,7 +292,7 @@ export function FluidLandingPage() {
               >
                 <Image
                   src={KiwiWebsite}
-                  alt="Kiwi Website Preview"
+                  alt="Kewi Website Preview"
                   width={800}
                   height={500}
                   className="w-full h-auto"

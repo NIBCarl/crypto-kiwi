@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Kiwi Labs | The Native Stablecoin of Fuel",
-  description: "Kiwi Labs is the native stablecoin of the Fuel ecosystem, secured by OtterSec and Immunefi.",
+  title: "Kewi Labs | The Native Stablecoin of Fuel",
+  description: "Kewi Labs is the native stablecoin of the Fuel ecosystem, secured by OtterSec and Immunefi.",
 };
 
 export default function RootLayout({
