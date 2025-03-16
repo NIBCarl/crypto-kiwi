@@ -171,36 +171,6 @@ export function KiwiLandingPage() {
             >
               Kiwi Labs
             </motion.h1>
-            <motion.p 
-              className="text-xl md:text-2xl text-green-400 font-mono mb-10"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-            >
-              The Native Stablecoin of Fuel
-            </motion.p>
-            <motion.div 
-              className="flex items-center gap-4 mb-8"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.4 }}
-            >
-              <p className="text-gray-400 font-semibold">SECURED BY</p>
-              <div className="flex items-center gap-4">
-                <motion.div 
-                  className="h-8 bg-black/50 backdrop-blur-sm rounded-lg px-4 flex items-center border border-green-500/20 hover:border-green-500/50 transition-all duration-300"
-                  whileHover={{ y: -3 }}
-                >
-                  <span className="text-sm text-gray-300">OtterSec</span>
-                </motion.div>
-                <motion.div 
-                  className="h-8 bg-black/50 backdrop-blur-sm rounded-lg px-4 flex items-center border border-green-500/20 hover:border-green-500/50 transition-all duration-300"
-                  whileHover={{ y: -3 }}
-                >
-                  <span className="text-sm text-gray-300">Immunefi</span>
-                </motion.div>
-              </div>
-            </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}

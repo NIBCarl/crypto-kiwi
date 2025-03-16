@@ -73,30 +73,6 @@ export function FluidLandingPage() {
             >
               Kiwi Labs
             </motion.h1>
-            <motion.p 
-              className="text-xl md:text-2xl text-green-400 font-mono mb-8"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-            >
-              The Native Stablecoin of Fuel
-            </motion.p>
-            <motion.div 
-              className="flex items-center gap-4"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.4 }}
-            >
-              <p className="text-gray-400">SECURED BY</p>
-              <div className="flex items-center gap-4">
-                <div className="h-6 bg-gray-800 rounded px-3 flex items-center">
-                  <span className="text-xs text-gray-400">OtterSec</span>
-                </div>
-                <div className="h-6 bg-gray-800 rounded px-3 flex items-center">
-                  <span className="text-xs text-gray-400">Immunefi</span>
-                </div>
-              </div>
-            </motion.div>
           </div>
           <motion.div 
             className="md:w-1/2 flex justify-center"
